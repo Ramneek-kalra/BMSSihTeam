@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to Battery\n Management System"
+        android:textAlignment="center"
+        android:id="@+id/HeadLine"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HeadLine"
+        android:text="You can check your \nFuel Based Battery of Car by Connecting via Wifi Module connected with our customized BMS Kit"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/subLine"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/mainimage"
+        android:layout_below="@id/subLine"
+        android:id="@+id/mainImage"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/mainImage"
+        android:text="Search Wifi"
+        android:backgroundTint="#F75E5E"
+        android:id="@+id/searchWifi"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainImage"
+        android:layout_marginTop="20dp"
+        android:id="@+id/batteryStatus"
+        android:layout_alignParentRight="true"
+        android:text="Battery Graph Data"
+        android:backgroundTint="#F75E5E"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Visit Us at: www.sites.google.com/BMSApp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        />
+</RelativeLayout>
