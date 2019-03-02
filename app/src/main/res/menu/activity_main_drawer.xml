@@ -23,7 +23,7 @@
             <item
                 android:id="@+id/nav_contact"
                 android:icon="@android:drawable/sym_action_call"
-                android:title="Contac Us" />
+                android:title="Contact Us" />
         </menu>
     </item>
 

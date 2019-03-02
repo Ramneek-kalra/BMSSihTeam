@@ -18,19 +18,32 @@
         android:textAlignment="center"
         android:id="@+id/HeadSOH"
         />
-    <com.jjoe64.graphview.GraphView
+    <ImageView
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/HeadSOH"
-        android:layout_height="200dip"
-        android:layout_margin="10dp"
-        android:id="@+id/StatusOfHealth" />
+        android:layout_centerHorizontal="true"
+        android:id="@+id/stateOfHealthGraph"
+        android:src="@mipmap/state_of_health"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-----------------------------------"
-        android:layout_below="@id/StatusOfHealth"
-        android:textSize="30dp"
+        android:layout_below="@id/stateOfHealthGraph"
         android:layout_centerHorizontal="true"
+        android:text="State of Charge Graph Status"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/HeadSOC"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HeadSOC"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/state_of_charge"
         />
 
 </RelativeLayout>
