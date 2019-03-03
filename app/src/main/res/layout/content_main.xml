@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:text="Welcome to Battery\n Management System"
         android:textAlignment="center"
@@ -43,6 +44,7 @@
         android:layout_marginTop="20dp"
         android:layout_below="@id/mainImage"
         android:text="Search Wifi"
+        android:layout_marginLeft="20dp"
         android:backgroundTint="#F75E5E"
         android:id="@+id/searchWifi"
         />
@@ -53,7 +55,8 @@
         android:layout_marginTop="20dp"
         android:id="@+id/batteryStatus"
         android:layout_alignParentRight="true"
-        android:text="Battery Graph Data"
+        android:text="Realtime SOH | SOC"
+        android:layout_marginRight="20dp"
         android:backgroundTint="#F75E5E"
         />
     <TextView
@@ -63,7 +66,7 @@
         android:layout_centerHorizontal="true"
         android:text="Visit Us at: https://sites.google.com/view/bmsapp/"
         android:layout_marginBottom="20dp"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:autoLink="web"
         />
 </RelativeLayout>

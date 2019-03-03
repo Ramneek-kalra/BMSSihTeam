@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "905186908653",
+    "firebase_url": "https://bmsapp-c62a5.firebaseio.com",
+    "project_id": "bmsapp-c62a5",
+    "storage_bucket": "bmsapp-c62a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905186908653:android:275abf03dcc31876",
+        "android_client_info": {
+          "package_name": "com.bms.sihTeam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905186908653-9cibg26jdcgie8v87cm9e6nqi00270q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvSwyFwxurGLbijZ0M7Hl_A6LER0x9opo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
